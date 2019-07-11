@@ -1,0 +1,32 @@
+author: Dan Holland
+description: OTA Update Core
+arch: ESP32
+version: 1.0
+manifest_version: 2017-09-29
+type: lib
+
+tags:
+  - ota
+  - c
+  - js
+
+config_schema:
+  - ['ota', 'o', { 'title': 'Over-the-air Updates' }]
+  - [
+      'ota.buffer_size',
+      'i',
+      2048,
+      { 'title': 'Over-the-air Updates receive buffer size' },
+    ]
+
+sources:
+  - src
+
+includes:
+  - include
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/rpc-service-config
+
+build_vars:
+  ESP_IDF_EXTRA_COMPONENTS: '${build_vars.ESP_IDF_EXTRA_COMPONENTS}'

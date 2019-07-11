@@ -1,0 +1,372 @@
+name: esp_ota_update
+type: lib
+version: "1.0"
+arch: ESP32
+platform: esp32
+platforms:
+- cc3200
+- cc3220
+- esp32
+- esp8266
+- rs14100
+- stm32
+- ubuntu
+author: Dan Holland
+description: OTA Update Core
+sources:
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src/mgos_ota_update.c
+includes:
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include/esp32
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include/esp32
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include
+- /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include
+config_schema:
+- - i2c
+  - o
+  - title: I2C settings
+- - i2c.unit_no
+  - i
+  - 0
+  - title: Which hardware unit to use, 0 or 1
+- - i2c.enable
+  - b
+  - false
+  - title: Enable I2C
+- - i2c.freq
+  - i
+  - 100000
+  - title: Clock frequency
+- - i2c.debug
+  - b
+  - false
+  - title: Debug I2C bus activity
+- - i2c.sda_gpio
+  - i
+  - 32
+  - title: GPIO to use for SDA
+- - i2c.scl_gpio
+  - i
+  - 33
+  - title: GPIO to use for SCL
+- - i2c1
+  - i2c
+  - title: I2C settings
+- - i2c1.unit_no
+  - 1
+- - i2c1.enable
+  - false
+- - i2c1.sda_gpio
+  - 22
+- - i2c1.scl_gpio
+  - 23
+- - sys.atca
+  - o
+  - title: CryptoAuthLib configuration
+- - sys.atca.enable
+  - b
+  - false
+  - title: Enable the chip
+- - sys.atca.i2c_bus
+  - i
+  - 0
+  - title: Which I2C bus to use
+- - sys.atca.i2c_addr
+  - i
+  - 96
+  - title: I2C address of the chip
+- - sys.atca.ecdh_slots_mask
+  - i
+  - 12
+  - title: Which slots can be used for ECDH (bitmask)
+- - debug.mbedtls_level
+  - i
+  - 1
+  - title: mbedTLS debug level
+- - device
+  - o
+  - title: Device settings
+- - device.id
+  - s
+  - title: Device ID
+- - device.license
+  - s
+  - title: License code
+- - device.mac
+  - s
+  - ""
+  - title: user/custom defined mac address
+- - debug
+  - o
+  - title: Debug Settings
+- - debug.level
+  - i
+  - 2
+  - title: Debug Level
+- - debug.file_level
+  - s
+  - ""
+  - title: 'Log file level specification: file=level,file=level,...; see cs_log_set_file_level()'
+- - debug.stdout_uart
+  - i
+  - 0
+  - title: STDOUT UART (-1 to disable)
+- - debug.stderr_uart
+  - i
+  - 0
+  - title: STDERR UART (-1 to disable)
+- - debug.factory_reset_gpio
+  - i
+  - -1
+  - title: Factory reset GPIO (low on boot)
+- - debug.mg_mgr_hexdump_file
+  - s
+  - title: File name to hexdump network traffic to. Use '-' for stdout, '--' for stderr.
+- - sys
+  - o
+  - title: System settings
+- - sys.tz_spec
+  - s
+  - ""
+  - title: 'See formats for the TZ env var: "man tzset". Formats like ":/path/to/file"
+      are not supported'
+- - sys.wdt_timeout
+  - i
+  - 30
+  - title: Watchdog timeout (seconds)
+- - sys.pref_ota_lib
+  - s
+  - title: Preferred ota lib, e.g. dash, ota-http-client
+- - conf_acl
+  - s
+  - '*'
+  - title: Conf ACL
+- - rpc
+  - o
+  - title: RPC settings
+- - rpc.enable
+  - b
+  - true
+  - title: Enable RPC
+- - rpc.max_frame_size
+  - i
+  - 4096
+  - title: Max Frame Size
+- - rpc.max_queue_length
+  - i
+  - 25
+  - title: Max Queue Length
+- - rpc.default_out_channel_idle_close_timeout
+  - i
+  - 10
+  - title: Default idle close timeout for outbound channels
+- - rpc.acl_file
+  - s
+  - title: File with RPC ACL JSON
+- - rpc.auth_domain
+  - s
+  - title: Realm to use for digest authentication
+- - rpc.auth_file
+  - s
+  - title: File with user credentials in the htdigest format
+- - ota
+  - o
+  - title: Over-the-air Updates
+- - ota.buffer_size
+  - i
+  - 2048
+  - title: Over-the-air Updates receive buffer size
+build_vars:
+  BOARD: ""
+  ESP_IDF_EXTRA_COMPONENTS: ""
+  ESP_IDF_SDKCONFIG_OPTS: |2
+     CONFIG_SUPPORT_STATIC_ALLOCATION=y
+  MGOS: "1"
+  MGOS_HAVE_ATCA: "1"
+  MGOS_HAVE_CORE: "1"
+  MGOS_HAVE_FREERTOS: "1"
+  MGOS_HAVE_I2C: "1"
+  MGOS_HAVE_MBEDTLS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_VFS_COMMON: "1"
+  MGOS_HAVE_VFS_FS_LFS: "1"
+  MGOS_HAVE_VFS_FS_SPIFFS: "1"
+cdefs:
+  LFS_NO_DEBUG: "1"
+  MBEDTLS_ECP_ATCA: "1"
+  MBEDTLS_FREE_CERT_CHAIN: "1"
+  MBEDTLS_USER_CONFIG_FILE: \"mbedtls_platform_config.h\"
+  MBEDTLS_X509_CA_CHAIN_ON_DISK: "1"
+  MG_ENABLE_DNS: "1"
+  MG_ENABLE_DNS_SERVER: "1"
+  MG_ENABLE_MQTT: "1"
+  MG_ENABLE_SNTP: "1"
+  MG_ENABLE_SSL: "1"
+  MG_SSL_IF: MG_SSL_IF_MBEDTLS
+  MG_SSL_IF_MBEDTLS_FREE_CERTS: "1"
+  MGOS: "1"
+  MGOS_ENABLE_RPC_CHANNEL_HTTP: "1"
+  MGOS_ENABLE_SYS_SERVICE: "1"
+  MGOS_HAVE_ATCA: "1"
+  MGOS_HAVE_CORE: "1"
+  MGOS_HAVE_FREERTOS: "1"
+  MGOS_HAVE_I2C: "1"
+  MGOS_HAVE_MBEDTLS: "1"
+  MGOS_HAVE_MONGOOSE: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_VFS_COMMON: "1"
+  MGOS_HAVE_VFS_FS_LFS: "1"
+  MGOS_HAVE_VFS_FS_SPIFFS: "1"
+  MGOS_LFS1_COMPAT: "0"
+tags:
+- ota
+- c
+- js
+libs_version: 2.14.0
+modules_version: 2.14.0
+mongoose_os_version: 2.14.0
+manifest_version: "2017-09-29"
+libs_handled:
+- lib:
+    origin: https://github.com/mongoose-os-libs/freertos
+    location: https://github.com/mongoose-os-libs/freertos
+    name: freertos
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/src/esp32
+- lib:
+    origin: https://github.com/mongoose-os-libs/i2c
+    location: https://github.com/mongoose-os-libs/i2c
+    name: i2c
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c
+  init_deps:
+  - core
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/src/esp32
+- lib:
+    origin: https://github.com/mongoose-os-libs/atca
+    location: https://github.com/mongoose-os-libs/atca
+    name: atca
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca
+  init_deps:
+  - i2c
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib/basic
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib/crypto
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib/hal
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib/host
+- lib:
+    origin: https://github.com/mongoose-os-libs/mbedtls
+    location: https://github.com/mongoose-os-libs/mbedtls
+    name: mbedtls
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/src/esp32
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/library
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-common
+    location: https://github.com/mongoose-os-libs/vfs-common
+    name: vfs-common
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/src/esp32
+- lib:
+    origin: https://github.com/mongoose-os-libs/mongoose
+    location: https://github.com/mongoose-os-libs/mongoose
+    name: mongoose
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/src
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-fs-lfs
+    location: https://github.com/mongoose-os-libs/vfs-fs-lfs
+    name: vfs-fs-lfs
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs
+  init_deps:
+  - vfs-common
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1
+- lib:
+    origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
+    location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
+    name: vfs-fs-spiffs
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs
+  init_deps:
+  - vfs-common
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/src/spiffs
+- lib:
+    origin: https://github.com/mongoose-os-libs/core
+    location: https://github.com/mongoose-os-libs/core
+    name: core
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core
+  init_deps:
+  - freertos
+  - mongoose
+  - vfs-common
+  - vfs-fs-lfs
+  - vfs-fs-spiffs
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/src
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/src/esp32
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-common
+    location: https://github.com/mongoose-os-libs/rpc-common
+    name: rpc-common
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common
+  init_deps:
+  - core
+  - mongoose
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/src
+- lib:
+    origin: https://github.com/mongoose-os-libs/rpc-service-config
+    location: https://github.com/mongoose-os-libs/rpc-service-config
+    name: rpc-service-config
+  path: /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config
+  init_deps:
+  - core
+  - rpc-common
+  sources:
+  - /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/src
+init_deps:
+- freertos
+- mongoose
+- vfs-common
+- vfs-fs-lfs
+- vfs-fs-spiffs
+- core
+- i2c
+- atca
+- mbedtls
+- rpc-common
+- rpc-service-config

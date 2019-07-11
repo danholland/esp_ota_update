@@ -1,0 +1,234 @@
+Handling lib "core"...
+Handling lib "rpc-service-config"...
+core: Checking out Target build\objs\moslib\libmoslib.a is built successfully
+Done, hash 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e
+core: Hash unchanged at 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core")
+core: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core"
+rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
+rpc-service-config: Hash unchanged at b30e187977d8dafcb4297cff60e036855a7ff531 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config")
+rpc-service-config: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config"
+Handling lib "mongoose"...
+mongoose: Checking out 2.14.0...
+mongoose: Done, hash 5d2c8fd28e20d7041a1540c3022b721fdde97de4
+mongoose: Hash unchanged at 5d2c8fd28e20d7041a1540c3022b721fdde97de4 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose")
+mongoose: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose"
+Handling lib "rpc-common"...
+rpc-common: Checking out 2.14.0...
+rpc-common: Done, hash 144bb0c1913d115526016ded17e84036a44ea4ba
+rpc-common: Hash unchanged at 144bb0c1913d115526016ded17e84036a44ea4ba (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common")
+rpc-common: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common"
+Handling lib "vfs-common"...
+Handling lib "mbedtls"...
+vfs-common: Checking out 2.14.0...
+mbedtls: Checking out 2.14.0...
+mbedtls: Done, hash a98f87ef6ef18777c95afb71b2884615d8971be6
+mbedtls: Hash unchanged at a98f87ef6ef18777c95afb71b2884615d8971be6 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls")
+mbedtls: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls"
+vfs-common: Done, hash ae048a19d8f17f332d66fb42d1b072e8fde2b3fa
+vfs-common: Hash unchanged at ae048a19d8f17f332d66fb42d1b072e8fde2b3fa (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common")
+vfs-common: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common"
+Handling lib "atca"...
+atca: Checking out 2.14.0...
+atca: Done, hash f27a1b85d87e373f8c10aadd7227af020d997aef
+atca: Hash unchanged at f27a1b85d87e373f8c10aadd7227af020d997aef (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca")
+atca: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca"
+Handling lib "i2c"...
+i2c: Checking out 2.14.0...
+i2c: Done, hash a020b0e8be3a2d89e5392e57874d9e650369b4c7
+i2c: Hash unchanged at a020b0e8be3a2d89e5392e57874d9e650369b4c7 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c")
+i2c: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c"
+Handling lib "freertos"...
+Handling lib "vfs-fs-lfs"...
+Handling lib "vfs-fs-spiffs"...
+freertos: Checking out 2.14.0...
+vfs-fs-spiffs: Checking out 2.14.0...
+vfs-fs-lfs: Checking out 2.14.0...
+vfs-fs-spiffs: Done, hash 6fef5f74fc5f8e07b6324759066c0e9d06653693
+vfs-fs-lfs: Done, hash 7dc9f22289f25ed540df77fb7baa44bed6321cff
+freertos: Done, hash b8ed791ec9e61a5784f3ae78829b2ef2d1aca638
+vfs-fs-spiffs: Hash unchanged at 6fef5f74fc5f8e07b6324759066c0e9d06653693 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs")
+vfs-fs-spiffs: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs"
+vfs-fs-lfs: Hash unchanged at 7dc9f22289f25ed540df77fb7baa44bed6321cff (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs")
+vfs-fs-lfs: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs"
+freertos: Hash unchanged at b8ed791ec9e61a5784f3ae78829b2ef2d1aca638 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos")
+freertos: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos"
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Checking out 2.14.0...
+mongoose-os: Done, hash ce86552794fa9c7de45fd4d4897757ca893221fb
+== Manifest has changed, forcing a clean rebuild...
+Handling lib "rpc-service-config"...
+Handling lib "core"...
+rpc-service-config: Checking out 2.14.0...
+core: Checking out 2.14.0...
+rpc-service-config: Done, hash b30e187977d8dafcb4297cff60e036855a7ff531
+core: Done, hash 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e
+rpc-service-config: Hash unchanged at b30e187977d8dafcb4297cff60e036855a7ff531 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config")
+rpc-service-config: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config"
+core: Hash unchanged at 90f56f1e361c7d25ef8c2e3b9a83ef0369760f2e (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core")
+core: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core"
+Handling lib "rpc-common"...
+rpc-common: Checking out 2.14.0...
+rpc-common: Done, hash 144bb0c1913d115526016ded17e84036a44ea4ba
+rpc-common: Hash unchanged at 144bb0c1913d115526016ded17e84036a44ea4ba (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common")
+rpc-common: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common"
+Handling lib "mongoose"...
+mongoose: Checking out 2.14.0...
+mongoose: Done, hash 5d2c8fd28e20d7041a1540c3022b721fdde97de4
+mongoose: Hash unchanged at 5d2c8fd28e20d7041a1540c3022b721fdde97de4 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose")
+mongoose: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose"
+Handling lib "vfs-common"...
+Handling lib "mbedtls"...
+vfs-common: Checking out 2.14.0...
+mbedtls: Checking out 2.14.0...
+vfs-common: Done, hash ae048a19d8f17f332d66fb42d1b072e8fde2b3fa
+vfs-common: Hash unchanged at ae048a19d8f17f332d66fb42d1b072e8fde2b3fa (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common")
+vfs-common: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common"
+mbedtls: Done, hash a98f87ef6ef18777c95afb71b2884615d8971be6
+mbedtls: Hash unchanged at a98f87ef6ef18777c95afb71b2884615d8971be6 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls")
+mbedtls: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls"
+Handling lib "atca"...
+atca: Checking out 2.14.0...
+atca: Done, hash f27a1b85d87e373f8c10aadd7227af020d997aef
+atca: Hash unchanged at f27a1b85d87e373f8c10aadd7227af020d997aef (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca")
+atca: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca"
+Handling lib "i2c"...
+i2c: Checking out 2.14.0...
+i2c: Done, hash a020b0e8be3a2d89e5392e57874d9e650369b4c7
+i2c: Hash unchanged at a020b0e8be3a2d89e5392e57874d9e650369b4c7 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c")
+i2c: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c"
+Handling lib "vfs-fs-spiffs"...
+Handling lib "vfs-fs-lfs"...
+Handling lib "freertos"...
+vfs-fs-spiffs: Checking out 2.14.0...
+freertos: Checking out 2.14.0...
+vfs-fs-lfs: Checking out 2.14.0...
+vfs-fs-spiffs: Done, hash 6fef5f74fc5f8e07b6324759066c0e9d06653693
+vfs-fs-lfs: Done, hash 7dc9f22289f25ed540df77fb7baa44bed6321cff
+vfs-fs-spiffs: Hash unchanged at 6fef5f74fc5f8e07b6324759066c0e9d06653693 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs")
+vfs-fs-spiffs: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs"
+freertos: Done, hash b8ed791ec9e61a5784f3ae78829b2ef2d1aca638
+vfs-fs-lfs: Hash unchanged at 7dc9f22289f25ed540df77fb7baa44bed6321cff (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs")
+vfs-fs-lfs: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs"
+freertos: Hash unchanged at b8ed791ec9e61a5784f3ae78829b2ef2d1aca638 (dir "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos")
+freertos: Prepared local dir: "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos"
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Checking out 2.14.0...
+mongoose-os: Done, hash ce86552794fa9c7de45fd4d4897757ca893221fb
+Sources: [/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src/mgos_ota_update.c]
+Include dirs: [/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include/esp32 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include/esp32 /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include]
+Binary libs: []
+Building...
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228" to "/app"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include"
+mount from "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen" to "/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen"
+Docker arguments: run --name mos_build_2019-07-11T14-52-03-00_3932434874447590659 --rm -i -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228:/app -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/freertos/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/i2c/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs1 -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-service-config/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mongoose/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/rpc-common/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/mbedtls/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-lfs/littlefs -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/esp32 -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/atca/cryptoauthlib/lib -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/mbedtls/include/esp32 -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os:/mongoose-os -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-common/include/esp32 -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/vfs-fs-spiffs/include/spiffs -v /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include:/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/core/include --user 0:0 docker.io/mgos/esp32-build:3.2-r6 /bin/bash -c nice make '-j' '8' '-C' '/app' '-f' '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os/platforms/esp32/Makefile.build' '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib/libmoslib.a' 'MGOS_VARS_FILE=/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen/vars.mk' 'MGOS_MAIN_COMPONENT=moslib'
+make: Entering directory '/app'
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os/platforms/esp32/Makefile.build:186: warning: overriding recipe for target 'defconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:76: warning: ignoring old recipe for target 'defconfig'
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os/platforms/esp32/Makefile.build:186: warning: overriding recipe for target 'menuconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:63: warning: ignoring old recipe for target 'menuconfig'
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os/platforms/esp32/Makefile.build:228: warning: overriding recipe for target 'clean'
+/opt/Espressif/esp-idf/components/app_update/Makefile.projbuild:60: warning: ignoring old recipe for target 'clean'
+GENCONFIG
+#
+# configuration written to /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen/sdkconfig
+#
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/vfs'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/spiffs'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/smartconfig_ack'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/tcpip_adapter'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/spi_flash'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/wpa_supplicant'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/smartconfig_ack'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/vfs'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/tcpip_adapter'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/spiffs'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/spi_flash'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/pthread'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/soc'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/partition_table'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/partition_table'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/nvs_flash'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/micro-ecc'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/newlib'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/wpa_supplicant'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/lwip'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/soc'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/log'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/heap'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/pthread'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/nvs_flash'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/freertos'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/newlib'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/micro-ecc'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/expat'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esptool_py'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/ethernet'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esptool_py'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_ringbuf'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/heap'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/lwip'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp32'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_adc_cal'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/expat'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_event'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/freertos'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/log'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/ethernet'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/driver'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/cxx'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/bootloader_support'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_ringbuf'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/bootloader'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_event'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/app_update'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp32'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/bootloader'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/esp_adc_cal'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/app_trace'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/cxx'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/bootloader_support'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/app_update'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/driver'
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/app_trace'
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/deps/modules/mongoose-os/platforms/esp32/Makefile.build:228: warning: overriding recipe for target 'clean'
+/opt/Espressif/esp-idf/components/app_update/Makefile.projbuild:60: warning: ignoring old recipe for target 'clean'
+make[1]: Entering directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib'
+  GEN   /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen/mgos_config.c
+  GEN   /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/gen/mgos_ro_vars.c
+  CC mgos_ota_update.o
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src/mgos_ota_update.c: In function 'mgos_esp_ota_update_init':
+/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/src/mgos_ota_update.c:240:7: warning: unused variable 'ota_buf_size' [-Wunused-variable]
+   int ota_buf_size = (config_buffer_size > 0) ? config_buffer_size : DEFAULT_OTA_BUF_SIZE;
+       ^
+AR /data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib/libmoslib.a
+make[1]: Leaving directory '/data/fwbuild-volumes/2.14.0/apps/esp_ota_update/esp32/build_contexts/build_ctx_259379228/build/objs/moslib'
+make: Leaving directory '/app'
+Target build/objs/moslib/libmoslib.a is built successfully
