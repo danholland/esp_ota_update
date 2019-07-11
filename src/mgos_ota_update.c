@@ -28,7 +28,7 @@ const char *mgos_ota_get_fw_name()
   return MGOS_APP;
 }
 
-const int mgos_get_buffer_size()
+int mgos_get_buffer_size()
 {
   return ota_buf_size;
 }

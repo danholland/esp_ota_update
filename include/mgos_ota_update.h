@@ -19,7 +19,7 @@ extern "C"
 
   esp_err_t mgos_ota_prepare_fs();
 
-  const int mgos_get_buffer_size();
+  int mgos_get_buffer_size();
 
   bool mgos_esp_ota_update_init(void);
 
