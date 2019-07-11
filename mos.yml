@@ -22,6 +22,9 @@ config_schema:
 sources:
   - src
 
+filesystem:
+  - fs
+
 includes:
   - include
 
